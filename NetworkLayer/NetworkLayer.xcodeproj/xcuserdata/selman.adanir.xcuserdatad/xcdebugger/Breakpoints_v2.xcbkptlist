@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DB69EE15-26DF-422E-BBE5-DA4DE1BC70D8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C8332F3C-FD2D-4795-A955-6277EC503B03"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkLayer/View/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C8332F3C-FD2D-4795-A955-6277EC503B03 - 29acf3a3d7bd0945"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NetworkLayer.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "NetworkLayer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selman.adanir/Desktop/NetworkLayer/NetworkLayer/View/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "C8332F3C-FD2D-4795-A955-6277EC503B03 - 21977b4724ad1646"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.String&gt;) -&gt; () in NetworkLayer.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "NetworkLayer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selman.adanir/Desktop/NetworkLayer/NetworkLayer/View/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "C8332F3C-FD2D-4795-A955-6277EC503B03 - 29acf3a3d7bd0945"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NetworkLayer.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "NetworkLayer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/selman.adanir/Desktop/NetworkLayer/NetworkLayer/View/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
