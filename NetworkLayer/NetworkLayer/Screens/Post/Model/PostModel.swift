@@ -1,5 +1,5 @@
 //
-//  Comment.swift
+//  Post.swift
 //  NetworkLayer
 //
 //  Created by Selman Adanır on 12.11.2023.
@@ -7,10 +7,9 @@
 
 import Foundation
 
-struct Comment: Codable {
-    let postID: Int?
+// MARK: - PostModel
+struct PostModel: Codable {
     let id: Int?
-    let name:String?
-    let email: String?
+    let title: String?
     let body: String?
 }

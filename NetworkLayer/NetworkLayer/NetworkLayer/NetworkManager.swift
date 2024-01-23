@@ -10,13 +10,12 @@ import Foundation
 class NetworkManager {
     
     static let shared = NetworkManager()
-        
-    func request<T: Codable>(type: T.Type, url: String, method: HTTPMethods, completion: @escaping((Result<T, ErrorTypes>) -> ())) {
+
+    func request<T: Codable>(type: T.Type, url: NetworkHelper.Api, method: HTTPMethods, completion: @escaping((Result<T, ErrorTypes>) -> Void)) {
         let session = URLSession.shared
-        if let url = URL(string: url) {
+        if let url = URL(string: url.endPoint) {
             var request = URLRequest(url: url)
             request.httpMethod = method.rawValue
-            
             let dataTask = session.dataTask(with: request) { data, response, error in
                 if let _ = error {
                     completion(.failure(.generalError))

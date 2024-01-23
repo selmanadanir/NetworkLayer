@@ -21,4 +21,15 @@ enum ErrorTypes: String, Error {
 class NetworkHelper {
     static let shared = NetworkHelper()
     let baseURL = "https://jsonplaceholder.typicode.com/"
+    
+    enum Api {
+        case post
+        
+        var endPoint: String {
+            switch self {
+            case .post:
+                return NetworkHelper.shared.baseURL + "posts"
+            }
+        }
+    }
 }
